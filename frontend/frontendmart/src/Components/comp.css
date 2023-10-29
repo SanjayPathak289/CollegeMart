@@ -1,0 +1,652 @@
+:root {
+    --pcolor: #3772ff
+}
+
+.navbar {
+    width: 100%;
+    padding: 2rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--pcolor);
+}
+
+
+/* .logo {
+    width: 10%; */
+/* } */
+.logo p {
+    font-size: 1.3em;
+}
+
+.mainLinks {
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.mainLinks ul {
+    list-style: none;
+    display: inline;
+    font-size: 1.2em;
+}
+.mainLinks ul:hover{
+    color: white;
+}
+.linkli {
+    text-decoration: none;
+    margin: 1.2rem;
+    color: black;
+}
+.linkNav:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.linkli:hover {
+    border-bottom: 2px solid var(--pcolor);
+}
+
+.logoandLink {
+    display: flex;
+    padding-left: 2rem;
+}
+
+.homeContainer {
+    padding: 2rem;
+    min-height: 78vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftHome {
+    margin-left: 30px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.getStarted {
+    /* cursor: pointer; */
+    width: 30%;
+    background-color: var(--pcolor);
+}
+
+.leftHome p {
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+.rightHome {
+    width: 40%;
+
+}
+
+.footer {
+    width: 100%;
+    background-color: #0b3866;
+    /* position: absolute;
+    bottom: 0; */
+    margin-top: auto;
+    text-align: center;
+    padding: 1rem 0;
+    color: white;
+}
+
+.signForm {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.signIn {
+    width: 60%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signUp {
+    width: 70% !important;
+    height: 50vh !important;
+}
+
+.leftSign {
+    width: 30%;
+    background-color: var(--pcolor);
+    border-radius: 20px 0 0 20px;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: white;
+}
+
+.signInForm {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: inherit;
+    border: 2px solid rgba(148, 148, 148, 0.3);
+    border-radius: 0 20px 20px 0;
+}
+
+.tempFormDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: inherit;
+    padding: 0 2rem;
+    width: 100%;
+}
+
+.nameSignBox,
+.passwordBox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.passwordBox {
+    flex-direction: column;
+}
+
+.sign {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.profileBox {
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    min-height: 80vh;
+    justify-content: center;
+    margin: 3rem 0;
+}
+
+.leftProfileBox {
+    left: 0;
+    top: 0;
+    width: 55%;
+    border-radius: 20px;
+    /* background-color: red; */
+    min-height: inherit;
+    border: 2px solid rgba(0, 0, 0, 0.08);
+    padding: 1.2rem;
+}
+
+.rightProfileBox {
+    width: 35%;
+    min-height: inherit;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.preventStitter {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* position: absolute;
+    top: 0; */
+
+}
+
+.name {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nameBox,
+.email {
+    background-color: pink;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 40%;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.email {
+    width: auto;
+}
+
+
+
+.statsBox {
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.itemListed,
+.itemPurchased {
+    /* width: 30%; */
+    height: inherit;
+    /* background-color: blue; */
+    height: 70%;
+    border-radius: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.itemListed p {
+    font-size: 1rem;
+
+}
+
+.listings {
+    margin-top: 2rem;
+}
+
+
+.listObject {
+    border: 2px solid rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    margin: 1rem;
+    padding: 2rem;
+}
+
+.myAllListing a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.listObject:hover {
+    border-color: var(--pcolor);
+}
+
+.myProductsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    min-height: 78vh;
+}
+
+.myProductInfo {
+    width: 40%;
+    min-height: 20vh;
+    /* background-color: red; */
+    margin: 1.2rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.myImageProduct {
+    width: 100%;
+}
+
+.myImageProduct img {
+    width: 100%;
+    height: 100%;
+    width: inherit;
+    background-size: cover;
+    border-radius: 20px 0 0 20px;
+}
+
+.myInfoProduct {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    border-top: 2px solid var(--pcolor);
+    border-bottom: 2px solid var(--pcolor);
+    border-right: 2px solid var(--pcolor);
+    border-radius: 0px 20px 20px 0;
+}
+
+.myInfoProduct p {
+    margin-top: 1rem;
+}
+
+.productTab {
+    min-height: 78vh;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    flex-direction: row;
+}
+
+.imageTab {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
+.firstImageTab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 50vh;
+}
+
+.firstImageTab img {
+    /* width: 40%; */
+    max-height: inherit;
+    display: block;
+    margin: auto;
+    background-size: cover;
+    margin-bottom: 2rem;
+
+    /* change */
+    max-width: 100%;
+}
+
+.remainingImageTab {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+
+.remainingImageTab img {
+    width: 15%;
+    margin: 1rem;
+}
+
+.infoTab {
+    margin-left: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-right: 5rem;
+
+}
+
+
+
+.addItemBox {
+    width: 100%;
+    min-height: 80vh;
+    /* background-color: red; */
+    display: flex;
+}
+
+.leftItemBox {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.rightItemBox {
+    width: 60%;
+    padding-right: 5rem;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.infoBox {
+    height: 50%;
+    width: 100%;
+    /* background-color: aqua; */
+    margin-top: 1.2rem;
+    border: 2px solid rgba(148, 148, 148, 0.3);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.productNameBox {
+    width: 100%;
+}
+
+.producDescBox {
+    margin-top: 1rem;
+}
+
+.selectCateg {
+    margin-top: 1.3rem;
+    width: 100%;
+}
+
+.productPrice {
+    width: 100%;
+    margin-top: 1.3rem;
+}
+
+.submitProduct {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+}
+
+.allProducts {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    min-height: 80vh;
+}
+.productSearch{
+    margin: 3rem 0 0 0;
+    margin-left: 1rem;
+}
+.productCategory {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.listCategory ul li{
+    list-style: none;
+    margin: 2rem 0;
+}
+.listCategory ul li button{
+    cursor: pointer;
+}
+
+.allProductsContainer {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.singleProduct {
+    display: flex;
+    min-width: 30%;
+    min-height: 40%;
+    flex-direction: column;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.own {
+    background-color: blue;
+}
+
+.chatBox {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 30%;
+    max-height: 45vh;
+    /* overflow-y: scroll; */
+    background-color: wheat;
+}
+.messageShowingDiv{
+    padding: 0 0.5rem;
+    max-height: 40vh;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    color: white;
+    width: 100%;
+}
+.messageShowingDiv::-webkit-scrollbar{
+    width: 0;
+}
+.chatTextArea{
+    width: 100%;
+    border: 2px solid rgba(148, 148, 148, 0.3);
+    outline: none;
+    padding: 1rem;
+    font-size: 16px;
+}
+
+.imagePreview {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.previewBox {
+    position: relative;
+    margin: 10px;
+    border-radius: 3px;
+}
+
+.previewBox img {
+    width: 70px;
+}
+
+.productImage input {
+    display: none;
+    visibility: none;
+}
+
+.productImage {
+    min-height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addIcon span {
+    font-size: 2rem;
+    padding: 2rem;
+    border: 2px solid var(--pcolor);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.previewBox button {
+    position: absolute;
+    top: -10%;
+    right: -7%;
+    background-color: transparent;
+    border: none;
+    font-weight: 900;
+    font-size: 12px;
+}
+
+#pcateg {
+    padding: 0.7rem 2rem;
+    border: 2px solid rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+    outline: none;
+    font-size: 16px;
+    width: 100%;
+}
+.message{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--pcolor);
+    width: fit-content;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px 0px;
+    font-size: 1.13rem;
+}
+.own{
+    background-color: rgb(154, 154, 154) !important;
+    margin-left: auto;
+}
+.messengerDiv{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: row;
+    min-height: 78vh;
+}
+
+.allConversations{
+    display: flex;
+    justify-content: center;
+    height: inherit;
+    width: 30%;
+}
+.singleConv{
+    border: 2px solid rgba(148, 148, 148, 0.3);
+    padding: 1rem 2rem;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 2rem;
+}
+.singleConv:hover{
+    border-color: var(--pcolor);
+}
+.allMessages{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+.showM{
+    width: inherit;
+    height: 60vh;
+    overflow-y: scroll;
+    padding: 1.2rem;
+    color: white;
+    background-color: #d1dfff;
+}
+.inputM{
+    width: inherit;
+    position: relative;
+}
+.inputM textarea{
+    width: 100%;
+    border: 2px solid rgba(148, 148, 148, 0.3);
+    outline: none;
+    font-size: 16px;
+    padding: 1.2rem;
+}
+.inputM button{
+    position: absolute;
+    top: 10%;
+    right: 7%;
+
+}
